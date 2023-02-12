@@ -16,15 +16,15 @@
 
       <div class="bg-green-400 px-4 py-12 rounded	">
         <h1 class="text-3xl font-medium">Deposite</h1>
-        <h2 class="text-5xl">$<span class="font-bold text-5xl">00</span></h2>
+        <h2 class="text-5xl">$<span id="user-deposite" class="font-bold text-5xl">00</span></h2>
       </div>
       <div class="bg-orange-400	 px-4 py-12 rounded	">
         <h1 class="text-3xl font-medium">Withdraw</h1>
-        <h2 class="text-5xl">$<span class="font-bold text-5xl">00</span></h2>
+        <h2 class="text-5xl">$<span class="font-bold text-5xl" id="withdraw-user">00</span></h2>
       </div>
       <div class="bg-red-300 px-4 py-12 rounded	">
         <h1 class="text-3xl font-medium">Balance</h1>
-        <h2 class="text-5xl">$<span class="font-bold text-5xl">00</span></h2>
+        <h2 class="text-5xl font-bold text-5xl">$<span id="balance">1240</span></h2>
       </div>
       
     </div>
@@ -32,16 +32,18 @@
 
       <div class="bg-green-200 px-4 py-8 rounded	">
         <h1 class="text-3xl font-medium">Deposite</h1>
-        <input class="w-9/12 block mt-4 px-2 py-2" type="text" placeholder="$ amound you amound to Withdraw ">
-        <button class="bg-red-300 px-5 py-3 font-medium mt-4 hover:bg-orange-500 rounded " >Deposite</button>
+        <input id="input-value" class="w-9/12 block mt-4 px-2 py-2" type="text" placeholder="$ amound you amound to Withdraw ">
+        <button id="deposite-btn" class="bg-red-300 px-5 py-3 font-medium mt-4 hover:bg-orange-500 rounded " >Deposite</button>
       </div>
       <div class="bg-rose-200 px-4 py-8 rounded	">
         <h1 class="text-3xl font-medium">Withdraw</h1>
-        <input class="w-9/12 block mt-4 px-2 py-2" type="text" placeholder="$ amound you amound to Withdraw ">
-        <button class="bg-red-300 px-5 py-3 font-medium mt-4 hover:bg-orange-500 rounded " >Withdraw</button>
+        <input id="withdraw-input" class="w-9/12 block mt-4 px-2 py-2" type="text" placeholder="$ amound you amound to Withdraw ">
+        <button id="withdraw" class="bg-red-300 px-5 py-3 font-medium mt-4 hover:bg-orange-500 rounded " >Withdraw</button>
       </div>
        
     </div>
   </main>
+  <script src="withdraw.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
